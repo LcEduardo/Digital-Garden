@@ -12,12 +12,29 @@
     margin: 0px;
     padding: 0px;
 }
+
+
 header{
     background: linear-gradient(to bottom, #BCD952, #E5F2B6);
+    padding-bottom: 50px;
 }
 
 #name{
     float: left;
+    
+}
+
+#name > img {
+    height: 30px;
+    width: 40px;
+    
+}
+
+#name > span {
+    color: var(--cor5);
+    font-family: sans-serif;
+    font-weight: bold;
+    
 }
 
 #naveg {
@@ -65,6 +82,49 @@ header{
 
 main {
     background-color: var(--cor1);
+}
+
+main > ul {
+    color: #403027;
+    font-family: sans-serif;
+    list-style: none;
+    display: flex;
+    padding: 5px;
+}
+
+.topic {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#de {
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#linha {
+    width: 2%; 
+    height: 2px; 
+    background-color: rgb(29, 138, 240); 
+    margin-left: 20px;
+    margin-bottom: 5px;
+    transform-origin: 0 50%;
+    transform: rotate(90deg);
+}
+
+.topic > a {
+    color: var(--cor5);
+    text-decoration: none;
+    transition-duration: .5s;
+}
+
+.topic > a:hover {
+    background-color: rgba(255, 255, 255, 0.562);
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.151);
 }
 
 .foot {

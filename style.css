@@ -84,21 +84,13 @@ main {
     background-color: var(--cor1);
 }
 
-main > ul {
-    color: #403027;
-    font-family: sans-serif;
-    list-style: none;
+main > section {
     display: flex;
-    padding: 5px;
-}
-
-.topic {
-    margin-top: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 #de {
+    color: var(--cor5);
+    font-family: sans-serif;
     margin-top: 5px;
     margin-left: 20px;
     margin-bottom: 10px;
@@ -114,6 +106,20 @@ main > ul {
     transform: rotate(90deg);
 }
 
+#top {
+    color: #403027;
+    font-family: sans-serif;
+    list-style: none;
+    display: flex;
+    padding: 5px;
+}
+
+.topic {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
 .topic > a {
     color: var(--cor5);
     text-decoration: none;
@@ -125,6 +131,60 @@ main > ul {
     padding: 15px;
     border-radius: 30px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.151);
+}
+
+#pag {
+    padding: 10px 10px 20px 10px;
+    margin: 20px 20px 0px 20px;
+}
+
+.page {
+    display: flex;
+    list-style: none;
+    
+    
+}
+
+.conteudo {
+    background-color: white;
+    width: 150px;
+    height: 170px;
+    margin: 5px;
+    padding: 3px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.26);
+    border-radius: 30px;
+    transition-duration: .5s;
+}
+
+.conteudo:hover {
+    background-color: white;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.151);
+
+}
+
+.conteudo > h3 {
+    font-family:  'Shadows Into Light', cursive;
+    color: var(--cor5);
+    text-align: center;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.conteudo > img {
+    height: 30px;
+    width: 40px;
+}
+
+.page > li > a {
+    text-decoration: none;
+    font-weight: bold;
+}
+ 
+footer{
+    background-color: #403027;
 }
 
 .foot {

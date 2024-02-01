@@ -154,6 +154,7 @@ main > section {
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.26);
     border-radius: 30px;
     transition-duration: .5s;
+    text-align: center;
 }
 
 .conteudo:hover {
@@ -167,15 +168,30 @@ main > section {
 .conteudo > h3 {
     font-family:  'Shadows Into Light', cursive;
     color: var(--cor5);
-    text-align: center;
     margin: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.conteudo > img {
-    height: 30px;
-    width: 40px;
+.date{
+    color: var(--cor5);
+    font-family: sans-serif;
+    margin: 5px;
+    padding-left: 24px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+}
+
+.date > p {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#img {
+    height: 50px;
+    width: 60px;
+    padding-top: 5px;
 }
 
 .page > li > a {

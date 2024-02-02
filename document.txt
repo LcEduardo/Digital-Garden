@@ -5,5 +5,5 @@ CORES:
 -#748C1C
 -#403027
 
-Arrumar o favicon que no chrome fica com fundo branco
+Arrumar o favicon que no chrome fica com fundo branco.
 arrumar a estilização da imagem, ela não está recebendo os estilos.

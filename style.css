@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
 :root {
     --cor0: #F2F2F2;
     --cor1: #E5F2B6;
@@ -200,11 +202,40 @@ main > section {
 }
  
 footer{
-    background-color: #403027;
+    background-color:var(--cor5);
+    padding-bottom: 20px;
+}
+
+footer > h2 {
+    font-family: 'Lora', serif;
+    color: white;
+    margin: 0px 10px 10px 10px;
+    padding-top: 5px;
+}
+
+footer > ul {
+    display: flex;
+    margin: 5px;
+}
+
+footer > p {
+    font-family: 'Lora', serif;
+    font-size: 1.5em;
+    float: right;
+    color: white;
+    padding: 10px 10px 0px 0px;
+    margin: 10px;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: white;
 }
 
 .foot {
     height: 30px;
     width: 40px;
-
+    padding-left: 5px;
+    padding-right: 5px;
 }
+

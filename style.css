@@ -19,30 +19,18 @@
 header{
     background: linear-gradient(to bottom, #BCD952, #E5F2B6);
     padding-bottom: 50px;
+    padding-top: 5px;
 }
 
 #name{
-    float: left;
-    
-}
-
-#name > img {
-    height: 30px;
-    width: 40px;
-    
-}
-
-#name > span {
     color: var(--cor5);
-    font-family: sans-serif;
     font-weight: bold;
-    
+    font-family: 'Lora', serif;
+    margin: 5px;
 }
 
 #naveg {
     float: right;
-    padding: 10px;
-    
 }
 
 #naveg > a {
@@ -206,7 +194,7 @@ footer{
     padding-bottom: 20px;
 }
 
-footer > h2 {
+footer > h3 {
     font-family: 'Lora', serif;
     color: white;
     margin: 0px 10px 10px 10px;
@@ -215,12 +203,13 @@ footer > h2 {
 
 footer > ul {
     display: flex;
+    padding-top: 5px;
     margin: 5px;
 }
 
 footer > p {
     font-family: 'Lora', serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
     float: right;
     color: white;
     padding: 10px 10px 0px 0px;

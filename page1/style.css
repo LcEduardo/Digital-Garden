@@ -193,6 +193,7 @@ footer > h3 {
 }
 
 footer > ul {
+    list-style: none;
     display: flex;
     padding-top: 5px;
     margin: 5px;

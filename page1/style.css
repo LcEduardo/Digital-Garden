@@ -78,11 +78,22 @@ main > section {
     display: flex;
 }
 
+#contador {
+    color: rgb(65, 182, 221);
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 100%;
+    
+}
+
 #de {
     color: var(--cor5);
     font-family: sans-serif;
     margin-top: 5px;
-    margin-left: 20px;
     margin-bottom: 10px;
 }
 

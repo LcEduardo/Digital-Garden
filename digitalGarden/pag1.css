@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+:root {
+    --cor0: #F2F2F2;
+    --cor1: #E5F2B6;
+    --cor3: #BCD952;
+    --cor4: #748C1C;
+    --cor5: #403027;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor1);
+}
+
+nav {
+    margin: 5px;
+}
+
+nav > span {
+    color: var(--cor5);
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    margin: 5px;
+}
+
+nav > section {
+    float: right;
+} 
+
+.nav {
+    color: var(--cor5);
+    font-family: 'Lora', serif;
+    text-decoration: none;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.nav:hover {
+    color: var(--cor0);
+    font-weight: bold;
+}
+
+header {
+
+}
+
+#top {
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+    font-size: 2.5em;
+}
+
+#voltar {
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    color: var(--cor5);
+
+}

@@ -5,4 +5,9 @@ CORES:
 -#748C1C
 -#403027
 
-Juntar branch2 com main
+Próximo passo:
+    Criar a caracteristica 1, acho que preciso de mais uma divi para colocar o Notes e o broto (planta ou arvore) ao lado dele em um display = flex.
+
+    Criar a seta que mostra ao lado esquerdo do note quado passar por cima dele.
+
+    Criar a desccrição da caractersitica 1

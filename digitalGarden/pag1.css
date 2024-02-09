@@ -19,12 +19,12 @@ body {
 
 nav {
     margin: 5px;
+    font-family: 'Lora', serif;
 }
 
 nav > span {
     color: var(--cor5);
     font-weight: bold;
-    font-family: 'Lora', serif;
     margin: 5px;
 }
 
@@ -34,7 +34,6 @@ nav > section {
 
 .nav {
     color: var(--cor5);
-    font-family: 'Lora', serif;
     text-decoration: none;
     margin: 5px;
     text-decoration: none;
@@ -45,9 +44,6 @@ nav > section {
     font-weight: bold;
 }
 
-header {
-
-}
 
 #top {
     width: 50%;
@@ -56,9 +52,28 @@ header {
     font-size: 2.5em;
 }
 
-#voltar {
+#seta {
+    font-size: 20px;
+    margin: 2px;
+    color: rgb(221, 115, 133);
+    display: none;
+
+}
+
+#note {
     text-decoration: none;
     font-family: 'Lora', serif;
-    color: var(--cor5);
+    font-size: 0.5em;
+    color: rgb(221, 115, 133);
+}
 
+
+#broto {
+    width: 20px;
+}
+
+#tipo {
+    color: var(--cor5);
+    font-family: 'Lora', serif;
+    font-size: 0.5em;
 }

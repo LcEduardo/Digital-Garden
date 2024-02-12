@@ -12,3 +12,15 @@ function ocultarSeta() {
         seta.style.display = "none"
     }, 200);
 }
+
+function mostrarTooltip() {
+    let tooltip = document.getElementById('tooltip')
+    tooltip.innerHTML = 'Ideias que reservei e trabalhei um pouco'
+
+    tooltip.style.display = 'block'
+}
+
+function ocultarTooltip() {
+    let tooltip = document.getElementById('tooltip')
+    tooltip.style.display = 'none'
+}

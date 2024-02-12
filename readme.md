@@ -1,4 +1,4 @@
-# Welcome My Digital Garden:
+# Welcome to My Digital Garden:
 Esse projeto é onde crio meu [**Jardim Digital**](link).
 
 ## Ideia: 

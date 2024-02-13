@@ -17,7 +17,7 @@
 
 
 header{
-    background: linear-gradient(to bottom, #BCD952, #E5F2B6);
+    background-color: var(--cor1);
     padding-bottom: 50px;
     padding-top: 5px;
 }
@@ -35,9 +35,10 @@ header{
 
 #naveg > a {
     color: var(--cor5);
-    font-family: sans-serif;
+    font-family: 'Lora', serif;
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
+    margin-right: 5px;
     transition-duration: .5s;
 }
 

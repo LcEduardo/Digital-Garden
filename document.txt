@@ -6,6 +6,4 @@ CORES:
 -#403027
 
 Próximo passo:
-    Criar a desccrição da caractersitica 1;
-
-    Melhorar o h1 e p do header;
+    Lembrar de alinhar o main com a linha

@@ -44,8 +44,13 @@ nav > section {
     font-weight: bold;
 }
 
+header {
+    margin-bottom: 20px;
+}
+
 
 #top {
+    font-family: 'Lora', serif;
     width: 50%;
     margin: auto;
     padding: 5px;
@@ -62,7 +67,6 @@ nav > section {
 
 #note {
     text-decoration: none;
-    font-family: 'Lora', serif;
     font-size: 0.5em;
     color: rgb(221, 115, 133);
 }
@@ -74,7 +78,6 @@ nav > section {
 
 #tipo {
     color: var(--cor5);
-    font-family: 'Lora', serif;
     font-size: 0.5em;
 }
 
@@ -82,13 +85,31 @@ nav > section {
     position: absolute;
     background-color: #333;
     color: #fff;
-    font-family: 'Lora', serif;
     font-size: 0.4em;
     text-align: center;
     padding: 5px;
     border-radius: 5px;
     display: none;
     bottom: 91%;
-    left: 40%;
+    left: 35%;
     transform: translateX(-50%)
+}
+
+#top > p {
+    color: var(--cor5);
+}
+
+#linha {
+    border: 1px solid rgba(128, 128, 128, 0.404);
+    width: 60%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#data {
+    font-family: 'Lora', serif;
+    font-size: 1em;
+    position: absolute;
+    right: 20%;
 }

@@ -6,6 +6,7 @@
     --cor3: #BCD952;
     --cor4: #748C1C;
     --cor5: #403027;
+    --cor6: #fda3b2;
 }
 
 * {
@@ -26,6 +27,7 @@ nav > span {
     color: var(--cor5);
     font-weight: bold;
     margin: 5px;
+    font-size: 1.5em;
 }
 
 nav > section {
@@ -36,10 +38,11 @@ nav > section {
     color: var(--cor5);
     text-decoration: none;
     margin: 5px;
+    font-size: 1em;
 }
 
 .nav:hover {
-    color: var(--cor0);
+    color: var(--cor6);
     font-weight: bold;
 }
 
@@ -94,6 +97,10 @@ header {
     transform: translateX(-50%)
 }
 
+#top > h1 {
+    font-size: 2em;
+}
+
 #top > p {
     color: var(--cor5);
 }
@@ -111,4 +118,48 @@ header {
     font-size: 1em;
     position: absolute;
     right: 20%;
+}
+
+main {
+    background-color: #ebf1d5;
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+    
+}
+
+main > article {
+    margin-top: 30px;   
+}
+
+.subtitle {
+    font-family: 'Lora', serif;
+    font-size: 2.5em;
+    margin: 5px;
+    text-indent: 8px;
+}
+
+main p {
+    font-family: 'Lora', sans-serif;
+    margin: 10px;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 2em;
+    font-size: 1.5em;
+}
+
+main h3 {
+    font-family: 'Lora', sans-serif;
+    margin: 10px;
+    text-indent: 20px;
+    font-size: 2em;
+}
+
+main a {
+    color: var(--cor4);
+    text-decoration: none;
+}
+
+main a:hover {
+    color: rgb(253, 163, 178);
 }

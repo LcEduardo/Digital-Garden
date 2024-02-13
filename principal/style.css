@@ -8,6 +8,7 @@
     --cor3: #BCD952;
     --cor4: #748C1C;
     --cor5: #403027;
+    --cor6: #fda3b2;
 }
 
 * {
@@ -43,7 +44,7 @@ header{
 }
 
 #naveg > a:hover {
-    color: var(--cor0);
+    color: var(--cor6);
     font-weight: bold;
     
 }
@@ -56,7 +57,6 @@ header{
 }
 
 #title > h1 {
-    
     font-size: 6em;
     font-weight: normal;
     margin-bottom: 20px;

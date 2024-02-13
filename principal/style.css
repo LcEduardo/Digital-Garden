@@ -51,11 +51,11 @@ header{
     text-align: center;
     min-height: 150px;
     padding-top: 40px;
-    font-family:  'Shadows Into Light', cursive;
+    font-family: 'Lore', serif;
 }
 
 #title > h1 {
-    color: var(--cor5);
+    
     font-size: 6em;
     font-weight: normal;
     margin-bottom: 20px;

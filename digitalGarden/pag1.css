@@ -148,18 +148,94 @@ main p {
     font-size: 1.5em;
 }
 
+main img {
+    max-width: 100%;
+    height: auto;
+}
+
 main h3 {
     font-family: 'Lora', sans-serif;
     margin: 10px;
     text-indent: 20px;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
-main a {
+.link {
     color: var(--cor4);
     text-decoration: none;
 }
 
 main a:hover {
     color: rgb(253, 163, 178);
+}
+
+aside {
+    background-color: var(--cor3);
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.432);
+}
+
+aside h3 {
+    background-color: var(--cor4);
+    color: var(--cor0);
+    padding: 8px;
+    margin: -10px 0px -10px 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside ul {
+    list-style-position: inside;
+    margin: 20px;
+    columns: 2;
+}
+
+.referencia {
+    text-decoration: none;
+    color: var(--cor5);
+}
+
+.referencia:hover {
+    color: var(--cor0);
+    font-weight: bold;
+}
+
+footer{
+    background-color:var(--cor5);
+    padding-bottom: 20px;
+}
+
+footer > h4 {
+    font-family: 'Lora', serif;
+    color: white;
+    margin: 0px 10px 10px 10px;
+    padding-top: 5px;
+}
+
+footer > ul {
+    list-style: none;
+    display: flex;
+    padding-top: 5px;
+    margin: 5px;
+}
+
+footer > p {
+    font-family: 'Lora', serif;
+    font-size: 1.2em;
+    float: right;
+    color: white;
+    padding: 10px 10px 0px 0px;
+    margin: 10px;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot {
+    height: 30px;
+    width: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
 }

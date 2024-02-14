@@ -1,9 +1,0 @@
-CORES: 
--#F2F2F2
--#E5F2B6
--#BCD952
--#748C1C
--#403027
-
-Próximo passo:
-    Lembrar de alinhar o main com a linha

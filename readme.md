@@ -1,5 +1,5 @@
 # Welcome to My Digital Garden:
-Esse projeto é onde crio meu [**Jardim Digital**](link).
+Esse projeto é onde crio meu [*Jardim Digital*](https://lceduardo.github.io/Digital-Garden/).
 
 ## Ideia: 
 Ao explorar o Jardim Digital de [Maggie Appleton](https://maggieappleton.com/), surgiu a inspiração para desenvolver o meu próprio. Este projeto é fundamentado, é claro, na obra dela, bem como em algumas outras referências que pesquisei para obter uma compreensão abrangente sobre como abordar essa criação.

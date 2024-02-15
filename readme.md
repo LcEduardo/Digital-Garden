@@ -12,3 +12,7 @@ Em relação à funcionalidade do site, a abordagem foi bastante básica. Desenv
 
 Outra funcionalidade está presente na página onde explano o conceito de Jardim Digital. Nessa seção, implementei um mecanismo que adiciona uma seta ao passar o mouse sobre o elemento 'Notes', que funciona como um link para retornar à página principal. Além disso, na mesma página, integrei um recurso para criar um 'tooltip', revelando uma característica relacionada à quantidade de esforço e trabalho investidos no projeto.
 
+## Imagem do Site Digital Garden:
+Infelizmente não pode ser acessado pelo GitHub pages, mas se alguém tiver uma solução podem ficar a vontade e enviar para mim. 
+
+![Imagem do site DigitalGarden](imagens/pag2.0.png)
